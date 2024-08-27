@@ -1,0 +1,83 @@
+/* Schedule now link animation by "CSS-Tricks" */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Padding Settings to remove whitespace */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Removes scrollbar */
+::-webkit-scrollbar{
+  display:none;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.head{
+  background-color: #ffffff;
+}
+
+.body{
+  background-color: #ffffff;
+}
+
+.mainBody{
+  min-height: 100vh;
+  background-color: rgb(212, 212, 212);
+  justify-content: center;
+  display: flex;
+  padding-top: 40vh;
+}
+
+.mainTitle{
+  font-size: 10vw;
+}
+
+.secondDiv{
+  display: block;
+  justify-content: center;
+  padding: 5vw;
+  padding-left: 5vw;
+  min-height: 120vh;
+  padding-top: 15vh;
+  background-color: #e4e4e4;
+}
+
+.alexJones{
+  max-width: 90%;
+}
+
+.imageText{
+  justify-content: center;
+  display: flex;
+  font-size: 10vw;
+}
+
+.finalDiv{
+  display: block;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.finalText{
+  display: flex;
+  justify-content: center;
+  font-size: 20vw;
+  text-align: center;
+}
+
+.imageDiv{
+  display: block;
+  justify-content: center;
+  padding-top: 30vh;
+}
+
+.images{
+  max-width: 100%;
+}
